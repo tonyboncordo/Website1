@@ -9,7 +9,7 @@
 *{box-sizing:border-box}
 body{
   margin:0;
-  background:#dfe5e8;
+  background:var(--light);
   font-family:Montserrat,Arial,sans-serif;
   color:var(--navy);
 }
@@ -188,7 +188,7 @@ h2{
   font-weight:800;
   margin-right:9px;
 }
-.age{
+.age-badge{
   margin-top:15px;
   background:#eef1ef;
   border-radius:13px;
@@ -196,6 +196,15 @@ h2{
   color:var(--teal);
   font-size:11px;
   font-weight:600;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  text-align:left;
+}
+.age-icon{
+  font-size:22px;
+  color:var(--gold);
+  flex-shrink:0;
 }
 .delivered{text-align:center}
 .delivered h3{
@@ -203,13 +212,24 @@ h2{
   font-size:25px;
   font-weight:600;
 }
-.delivered p{
+.delivered .coach-name{
+  font-size:28px;
+  font-weight:700;
+  color:var(--navy);
+  margin-top:6px;
+}
+.delivered .coach-title{
   color:var(--teal);
   font-size:17px;
-  line-height:1.45;
+  font-weight:600;
+  line-height:1.4;
+  margin-top:10px;
 }
-.delivered hr{
-  width:65px;border:0;border-top:2px solid var(--gold);
+.delivered .coach-role{
+  font-size:13px;
+  font-weight:500;
+  color:rgba(9,35,75,.6);
+  margin-top:16px;
 }
 
 footer{
@@ -240,7 +260,7 @@ footer b{color:var(--gold)}
 .qr{
   width:75px;height:75px;
   margin-top:5px;
-  background:#fff;color:#111;
+  background:#fff;color:var(--navy);
   display:flex;align-items:center;justify-content:center;
   font-size:18px;
 }
