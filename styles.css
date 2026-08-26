@@ -275,7 +275,7 @@ footer b{color:var(--gold)}
 .qr{
   width:75px;height:75px;
   margin-top:5px;
-  background:#fff;
+  background:#f6f7f9;
   padding:4px;
   display:flex;align-items:center;justify-content:center;
 }
