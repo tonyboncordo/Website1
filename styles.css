@@ -9,7 +9,7 @@
 *{box-sizing:border-box}
 body{
   margin:0;
-  background:#fff;
+  background:var(--light);
   font-family:Montserrat,Arial,sans-serif;
   color:var(--navy);
 }
