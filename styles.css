@@ -9,7 +9,7 @@
 *{box-sizing:border-box}
 body{
   margin:0;
-  background:var(--light);
+  background:#fff;
   font-family:Montserrat,Arial,sans-serif;
   color:var(--navy);
 }
@@ -22,7 +22,7 @@ body{
 }
 .hero{
   position:relative;
-  height:665px;
+  height:750px;
   overflow:hidden;
   background:#fff;
 }
@@ -58,15 +58,17 @@ body{
   border-top:2px solid var(--gold);
   margin:20px 0 0;
 }
+
+
 .hero-photo{
   position:absolute;
   right:0;
   top:27px;
   width:62%;
-  height:565px;
-  clip-path:ellipse(78% 75% at 75% 35%);
+  height:693px;
   overflow:hidden;
 }
+
 .hero-photo img{
   width:100%;
   height:100%;
@@ -97,8 +99,8 @@ h1 span{color:var(--teal)}
 .circle-note{
   position:absolute;
   z-index:6;
-  right:70px;
-  bottom:30px;
+  right:68px;
+  top:478px;
   width:250px;height:250px;
   border-radius:50%;
   background:var(--navy);
