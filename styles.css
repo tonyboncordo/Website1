@@ -22,7 +22,7 @@ body{
 }
 .hero{
   position:relative;
-  height:750px;
+  height:660px;
   overflow:hidden;
   background:#fff;
 }
@@ -64,9 +64,8 @@ body{
   position:absolute;
   right:0;
   top:27px;
-  width:62%;
-  height:693px;
-  overflow:hidden;
+  width:66%;
+  height:647px;
 }
 
 .hero-photo img{
@@ -80,7 +79,7 @@ body{
   z-index:5;
   left:52px;
   top:265px;
-  width:330px;
+  width:305px;
 }
 h1{
   margin:0;
@@ -99,12 +98,27 @@ h1 span{color:var(--teal)}
 .circle-note{
   position:absolute;
   z-index:6;
+  left:210px;
+  top:330px;
+  width:378px;height:378px;
+  border-radius:50%;
+  background:var(--navy);
+  border:3px solid var(--gold);
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  font-size:16px;
+  line-height:1.5;
+}
+.circle-text-overlay{
+  position:absolute;
+  z-index:6;
   right:68px;
   top:478px;
   width:250px;height:250px;
-  border-radius:50%;
-  background:var(--navy);
-  border:2px solid var(--gold);
   color:#fff;
   display:flex;
   flex-direction:column;
@@ -114,7 +128,7 @@ h1 span{color:var(--teal)}
   font-size:15px;
   line-height:1.5;
 }
-.circle-note em{color:var(--teal);font-style:normal}
+.circle-text-overlay em{color:var(--teal);font-style:normal}
 .people-icon{font-size:30px;color:var(--gold);margin-bottom:5px}
 .people-icon svg{width:32px;height:32px;display:block;margin:0 auto}
 .age-icon svg{width:22px;height:22px;display:block}
